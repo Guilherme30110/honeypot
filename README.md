@@ -86,7 +86,3 @@ ssh qualquer_usuario@<IP_DO_HONEYPOT> -p 2222
 > ⚠️ **AVISO CRÍTICO DE SEGURANÇA:** Este Honeypot foi desenvolvido exclusivamente para fins de estudo, laboratórios controlados e demonstrações de portfólio de conceitos básicos.
 > Ele **NÃO** possui mecanismos avançados de isolamento de processos (*hardened sandboxing*), proteção contra ataques de negação de serviço (DoS) na camada de socket, ou validações robustas contra fuzzing avançado do protocolo SSH.
 > Portanto, **não recomendo e não me responsabilizo** pela exposição deste script diretamente na internet pública (WAN) sem que ele esteja devidamente isolado dentro de um ambiente Docker dedicado, instâncias de nuvem descartáveis ou sub-redes/VLANs restritas de laboratório. O uso indevido deste código é de inteira responsabilidade do usuário.
-
-```
-
-```
